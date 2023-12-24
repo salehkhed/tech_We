@@ -10,27 +10,31 @@ header {
     color: #fff;
     text-align: center;
     padding: 1em 0;
+   
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    
 }
 
 nav li {
     display: inline;
     margin-right: 20px;
+    
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #1c1a1a;
     font-weight: bold;
     font-size: 16px;
 }
 
 a:hover {
-    color: #ffd700; /* couleur jaune en survol */
+    color: #d2700e; /* couleur jaune en survol */
+    
 }
 
 main {
@@ -81,4 +85,8 @@ nav ul li {
     border: 1px solid #ccc; /* Ajoute une bordure de 1 pixel avec une couleur grise */
     margin: 5px; /* Ajoute une marge de 5 pixels autour de chaque lien */
     padding: 10px; /* Ajoute un espacement interne de 10 pixels à l'intérieur de chaque lien */
+    border-radius: 50%;
+    background-color: #f5f5f5;
+
+    
 }
